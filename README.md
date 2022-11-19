@@ -1,2 +1,2 @@
-# team-10
-# You are looking at the repo of the coolest winners in Code For Good History.
+# Jreamboard
+An audio-podcast based social media app designed for the Jream Foundation for the Code for Good Hackathon.
