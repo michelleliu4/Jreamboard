@@ -1,0 +1,248 @@
+/* Login *************************************/
+.Login-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  background-color: #E7D9BE;
+  height: 75vh;
+  padding: 5px;
+}
+.Login-form {
+  margin-bottom: 115px;
+  border-radius: 32px;
+  background-color: #F7EACC;
+  padding: 4rem 3rem;
+}
+.Login-text {
+  
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Login-signin-button {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 180px;
+  background-color: #E7D9BE;
+  
+  font-weight: bold;
+  box-shadow: 0;
+}
+.Login-createaccount-button {
+  margin: auto;
+  width: 180px;
+  background-color: #E7D9BE;
+  
+  font-weight: bold;
+  box-shadow: 0;
+}
+.Login-signin-button2 {
+  
+  font-weight: bold;
+  background-color: #E7D9BE;
+}
+.Login-signin-close {
+  
+  font-weight: bold;
+}
+.Login-createaccount-button2 {
+  
+  font-weight: bold;
+  background-color: #E7D9BE;
+}
+.Login-createaccount-close {
+  
+  font-weight: bold;
+}
+.Login-error {
+  color: red;
+  
+  font-size: 15px;
+}
+/* .Login-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  
+}
+input[type="text"],
+input[type="password"] {
+  
+  font-size: 100%;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 20px;
+  margin: 2px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  cursor: pointer;
+  
+  font-size: 100%;
+  background: #E7D9BE;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  color: #000000;
+  padding: 10px 80px;
+}
+input[type="submit"]:hover {
+  background: #f5e7ca;
+}
+.Login-button-container {
+  display: flex;
+  justify-content: center;
+}
+.Login-form {
+  border-radius: 32px;
+  background-color: #F7EACC;
+  padding: 3rem 0.5rem;
+}
+.Login-list-container {
+  display: flex;
+}
+.Login-error {
+  color: red;
+  
+  font-size: 15px;
+}
+.Login-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+.Login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 5px;
+}
+.Login-bottom-text {
+  text-align: center;
+} */
+
+/*********************************************/
+body {
+  background-color: #E7D9BE;
+}
+
+.uploadButton {
+  background-color: #F7EACC;
+  padding: 50px 100px;
+  border-radius: 20px;
+  margin-top: 40px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Header Rules************************/
+.currentNav {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+/* Set align-items to center********/
+.container, .centerMain, header, .box-2 {
+  align-items: center;
+}
+
+/* Set display to flex**************/
+.container, header, footer, .document, .container-fluid {
+  display: flex;
+}
+
+/* Set background color to #586F6B***/
+header {
+  background-color: #F7EACC;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+li, a, button {
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+.links-nav {
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.links-nav li a {
+  transition: all 0.15s ease-out 0.15s;
+}
+.links-nav li a:hover {
+  color: #CFC0BD !important;
+  text-decoration: underline !important;
+}
+.logo {
+  margin-left: 10%;
+}
+
+@media (min-width:768px) {
+  body {
+    background-color: #E7D9BE !important;
+  }
+
+  header {
+      padding: 25px 10%;
+  }
+  li, a, button {
+      font-size: 20px;
+  }
+  .links-nav li {
+      display: inline-block;
+      padding: 0px 25px;
+  }
+  .logo {
+      margin-left: 0;
+      max-height: 65px;
+  }
+}
+/***********************************/
+
+/* PROFILE */
+
+.Search-bar-app {
+  font-family: Karla;
+  background-color: #E7D9BE;
+  height: 100vh;
+  align-items: center;
+}
+
+.meetUpCard {
+  border-radius: 10px;
+  background-color: #F7EACC;
+  padding: 10px 20px;
+  margin-top: 4%;
+}
+
+.meetUpCard:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.meetUpContainer {
+  flex-wrap: wrap;
+}
+
+.center {
+  text-align: center;
+}
+
